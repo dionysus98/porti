@@ -27,7 +27,7 @@ jobs:
           bb: "latest"
 
       - name: Build project with shadow-cljs
-        run: npx shadow-cljs release app
+        run: bb dev:release
 
   deploy:
     needs: build
