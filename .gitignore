@@ -7,6 +7,7 @@
 
 # js shit
 node_modules
+resources/public/js/cljs-runtime/
 
 # dev
 .envrc

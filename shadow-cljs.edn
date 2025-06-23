@@ -3,4 +3,5 @@
  :builds   {:app {:target           :browser
                   :modules          {:main {:init-fn proti.dev/main!}}
                   :dev              {:output-dir "resources/public/js"}
-                  :compiler-options {:externs ["datascript/externs.js"]}}}}
+                  :release          {:output-dir "resources/public/js"}
+                :compiler-options {:externs ["datascript/externs.js"]}}}}
