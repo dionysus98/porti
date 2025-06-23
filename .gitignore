@@ -1,0 +1,13 @@
+# clojure/vscode shit
+.calva/output-window
+.cpcache
+.lsp/.cache
+.shadow-cljs
+.clj-kondo/.cache
+
+# js shit
+node_modules
+
+# dev
+.envrc
+tmp/
