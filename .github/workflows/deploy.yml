@@ -29,6 +29,12 @@ jobs:
       - name: Build project with shadow-cljs
         run: bb dev:release
 
+      - name: Upload static files as artifact
+        id: deployment
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: resources/public/
+
   deploy:
     needs: build
     # Grant GITHUB_TOKEN the permissions required to make a Pages deployment
