@@ -1,2 +1,3 @@
 {:tasks {node_modules (shell "npm install")
-         dev:watch    (shell "npx shadow-cljs -d cider/cider-nrepl:0.55.4 watch :app")}}
+         dev:watch    (shell "npx shadow-cljs -d cider/cider-nrepl:0.55.4 watch :app")
+         dev:release  (shell "npx shadow-cljs release :app")}}
